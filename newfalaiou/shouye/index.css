@@ -1,0 +1,212 @@
+html{
+	font-size: 125%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+body{
+	max-width: 750px;
+	margin: 0 auto;
+}
+input::-webkit-input-placeholder {
+	font-size: 1rem;
+	color: #D6D0CA !important; /* WebKit browsers */
+}
+input:-moz-placeholder {
+	font-size: 1rem;
+	color: #D6D0CA !important; /* Mozilla Firefox 4 to 18 */
+}
+input::-moz-placeholder {
+	font-size: 1rem;
+	color: #D6D0CA !important; /* Mozilla Firefox 19+ */
+}
+input:-ms-input-placeholder {
+	font-size: 1rem;
+	color: #D6D0CA !important; /*Internet Explorer 10+ */
+}
+.padding{
+	padding: 3rem;
+}
+		
+.navigation{
+    text-align: center;
+}
+.navigation #img_1{
+    width: 10%;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.navigation #img_2{
+    width: 40%;
+    padding-top: 25px;
+    margin: 0 auto;
+    margin-left: 7%;
+}
+.navigation span{
+    width: 25%;
+    margin-right: 20px;
+    padding-top: 25px;
+    float: right;
+    font-size: 1.2rem;
+}
+#title li{
+    border-top: 1px solid darkgray;
+    padding: 20px 0px 20px 25px;
+    display: none;
+}
+
+.shu{height:2rem;}
+.footer{
+	bottom: 0;
+	position: fixed;
+	width:100%;
+	height:5.6rem;
+	background:#2d3e50; 
+}
+.footer a{
+	font-size:1.1rem;
+	color:#ffffff;
+	float:left;
+	width:33.3%;
+	text-align:center
+}
+.footer a img{
+	height:2.4rem;
+	width:2.4rem;
+	margin-top:0.8rem;
+}
+.footer a .consultation{
+	width:3.05rem;
+}
+
+
+
+#french img{
+	margin-top: 20px;
+	width: 100%;
+}
+#head_right span{
+	font-size: 0.8rem;	
+	color: black;
+}
+#head_right a{
+	text-decoration: none;
+}
+#about_us{
+	height: 17rem;
+	margin: 3rem 3px;	
+}
+#about_us img{
+	width: 6rem;
+	height: 6rem;
+}
+#about_us_top{
+	margin-bottom: 35px;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */	
+}
+#about_us_bottom{
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */	
+}
+#about_us_bottom .about_us{
+	flex-grow: 1;
+	flex-grow: 1;
+	text-align: center;	
+}
+#about_us_top .about_us{
+	flex-grow: 1;
+	flex-grow: 1;
+	text-align: center;		
+}
+.about_us div{
+	margin: 0 auto;
+}
+.about_us p{
+	font-size: 1rem;
+}
+.the_learning_environment{
+	width: 100%;
+	height: 36rem;
+	text-align: center;
+}
+.the_learning_environment h1{
+	margin-bottom: 15px;
+	font-size: 2.5rem;
+}
+.the_learning_environment p{
+	margin-bottom: 60px;
+	font-size: 1.5rem;
+	color: #5b5b5b;
+}
+.the_learning_environment div{
+	width: 100%;
+	margin: 0 auto;
+}
+#img1{
+	width: 19.8rem;
+	height: 21.2rem;
+}
+#img2{
+	width: 19.8rem;
+	height: 21.3rem;
+}
+#img3{
+	width: 23rem;
+	height: 19.75rem;
+}
+#img4{
+	width: 20.1rem;
+	height: 19.8rem;
+}
+#img5{
+	width: 20.1rem;
+	height: 19.8rem;
+}
+#img6{
+	width: 25.4rem;
+	height: 19.55rem;
+}
+#img7{
+	width: 23.55rem;
+	height: 20rem;
+}
+
+#make_an_appointment_to_audition{
+	height: 26rem;
+	width: 100%;
+	padding: 2rem 2rem;
+	text-align: center;
+}
+#make_an_appointment_to_audition h1{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	color: #d33d48;
+}
+#make_an_appointment_to_audition input{
+	width: 100%;
+	height: 4rem;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+}
+#make_an_appointment_to_audition button{
+	background-color: #d33d48;
+	color: #fff;
+	font-size: 2rem;
+	padding: 1.5rem 0;
+	text-align: center;
+	width: 100%;
+}

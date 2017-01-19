@@ -1,0 +1,337 @@
+.container{
+	max-width: 100%;
+	margin:0 auto;
+	box-sizing: border-box;
+	padding-bottom:6rem;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear:both;	
+}
+.container{
+	width:100%;
+	position: relative;
+}
+/*header*/
+.header{
+	position: relative;
+	font-size:1.25rem;
+	width:100%;
+	height:6.4rem;
+}
+.menu{
+	float:left;
+	background: url("../img/menu.png") no-repeat center center;
+	height:3rem;
+	width:4rem;
+	-webkit-background-size:100%;
+	background-size:100%;
+	margin: 1.5rem 0 0 1.5rem;
+}
+.logo{
+	float:left;
+	background: url("../img/logo.png") no-repeat center center;
+	height:3.4rem;
+	width:13.05rem;
+	position: absolute;
+	left:4rem;
+	background-size:100%;
+	margin: 1.5rem 0 0 8rem;
+}
+.sweep{
+	float:right;
+	/*background: url("../img/sweep.png") no-repeat center center;*/
+	height:2.5rem;
+	width:7.25rem;
+	font-size:1.18rem;
+	-webkit-background-size:100%;
+	background-size:100%;
+	margin: 1.8rem 1.5rem 0 0;
+	color:#000000;
+}
+
+
+#title li{
+    border-top: 1px solid darkgray;
+    padding: 20px 0px 20px 1.5rem;
+    display: none;
+}
+
+/*banner*/
+.banner{
+	float:right;
+	background: url("../img/banner.png") no-repeat center center;
+	height:14.15rem;
+	width:100%;
+	-webkit-background-size:100%;
+	background-size:100%;
+}
+
+/*人物介绍*/
+.introduce-person{
+	width:100%;
+	position: relative;
+	clear:both;
+}
+/*人物介绍*/
+.person{
+	clear:left;
+	float:left;
+	height:17.4rem;
+	width:100%;
+}
+.person-left{
+	float: left;
+}
+.person-left img{
+	width:11.3rem;
+	height:11.3rem;
+	margin:3.1rem 0 0 1.65rem;
+}
+.person-right{
+	float: left;
+	font-size: 2.1rem;
+	font-family:	SimHei;
+	margin-left:2.1rem;
+}
+.person-right .p-name{
+	margin-top:6rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+.person-right .p-info{
+	font-size: 1.8rem;
+	color:#333;
+	margin-top: 1.2rem;
+}
+.person-info-details{
+	width:34.5rem;margin:0 auto
+}
+.person-info-details p{
+	margin-top:1rem;
+	font-size: 1.55rem;
+	color:#333
+}
+
+/*证书信息*/
+.card-box{
+	clear:both;
+	position: relative;
+	top:4.5rem;
+	font-size: 1.6rem;
+	color:#333;
+}
+.card-box:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.card-info-title{
+	clear:left;	
+}
+.card-info-title img{
+	float:left;
+	margin-left:1.65rem;
+	width:2rem;
+	height:2rem;
+	margin-top:0.2rem;
+}
+.card-info-title p{
+	float:left;
+	margin-left:1rem;
+	padding:0;
+}
+.pad{
+	margin-left:10rem;
+}
+.vertical-border{
+	width:1px;
+	height:24.5rem;
+	border-left:1px solid #ccc;
+	position: relative;
+	left: 2.5rem;
+	top:2.8rem;
+}
+.card_one{
+	float:left;
+	position: absolute;
+	top:4.2rem;
+	left:5.1rem;
+}
+.card_one img{
+	width: 27.9rem;
+	height: 19.85rem;
+}
+
+
+
+.card-box2{
+	clear:both;
+	position: relative;
+	top:4.5rem;
+	font-size: 1.6rem;
+	color:#333;
+}
+.card-info-title2{
+	clear:left;	
+}
+.card-info-title2 img{
+	float:left;
+	margin-left:1.65rem;
+	width:2rem;
+	height:2rem;
+	margin-top:0.3rem;
+}
+.card-info-title2 div{
+	float:left;
+	margin-left:1rem;
+	padding:0;
+}
+.vertical-border2{
+	width:1px;
+	height:28.5rem;
+	border-left:1px solid #ccc;
+	position: relative;
+	left: 2.5rem;
+	top:2.8rem;
+}
+.card_one2{
+	float:left;
+	position: absolute;
+	top:7.5rem;
+	left:5.1rem;
+}
+.padd2{
+	margin-top:0.8rem;
+}
+.card_one2 img{
+	width: 27.9rem;
+	height: 19.85rem;
+}
+
+/*应聘说明*/
+.wanted{
+	clear:both;
+	margin:0 auto;
+	margin-top:110rem;
+}
+.wanted h2{
+	font-size:2.4rem;
+	margin:0 auto;
+	text-align:center;
+	font-weight: bold;
+}
+.wanted p{
+	margin-left:4.1rem;
+	font-size:1.6rem;
+	color:#333 ;
+	margin-top:1rem;
+}
+.wanted .p-title{
+	font-size: 1.85rem;
+	font-weight: bold;
+	margin-top:2.4rem;
+}
+.wanted .mail{
+	color:#d33d48;
+	font-size:1.8rem;
+	margin:0.5rem 0 0 4.1rem;
+}
+.english{
+	padding:0.5rem 0 0 0;
+	margin-top:2rem;
+	background:#f4f4f4;
+	padding-bottom:2.5rem;
+}
+.p-title2{
+	font-size: 1.85rem;
+	font-weight: bold;
+	margin-top:2rem;
+	margin-left:3rem;
+}
+/*form*/
+.form-box{
+	width:100%;
+}
+.form-box h2{
+	margin-top: 3.5rem;
+	font-size: 2.6rem;
+	color:#d33d48;
+	text-align: center;
+}
+.form-box .txt , .form-box .txt2{
+	width:31.5rem;
+	height:4.2rem;
+	border:1px solid #ccc;
+	border-radius:1px;
+	margin:3rem 0 2rem 3rem;
+}
+.form-box .txt2{
+	margin:0rem 0 2rem 3rem;
+}
+.form-box .txt input{
+	padding-left:1rem;
+	width:100%;
+	height:100%;
+	border:none;
+	outline: none;
+	margin:0px;
+	font-size:1.6rem;
+}
+.form-box .txt2 input{
+	padding-left:1rem;
+	width:100%;
+	height:100%;
+	border:none;
+	outline: none;
+	margin:0px;
+	font-size:1.6rem;
+}
+.form-box .submit{
+	width:31.5rem;
+	height:4.2rem;
+	border:1px solid #d33d48;
+	border-radius:1px;
+	margin:3rem 0 2rem 3rem;
+	background:#d33d48;
+	border-radius: 2px;
+}
+.form-box .submit input{
+	color:#ffffff;
+	height:4rem;
+	width:100%;
+	border:0;
+	display: block;
+	background:none;
+	font-size:1.8rem;
+}
+.shu{height:2rem;}
+.footer{
+	width:100%;
+	height:5.6rem;
+	background:#2d3e50; 
+	position:fixed;
+	bottom: 0;
+}
+.footer a{
+	font-size:1.1rem;
+	color:#ffffff;
+	float:left;
+	width:33.3%;
+	text-align:center
+}
+.footer a img{
+	height:2.4rem;
+	width:2.4rem;
+	margin-top:0.8rem;
+}
+.footer a .consultation{
+	width:3.05rem;
+}
+
+
+
+
+

@@ -1,0 +1,346 @@
+/* 标签样式初始化 */
+body{margin:0;padding:0;background:#fff;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+img{border:0;}
+ul,li{list-style-type:none;}
+a{color:black;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+.navigation{
+    text-align: center;
+}
+.navigation #img_1{
+    width: 10%;
+    margin-left: 20px;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.navigation #img_2{
+
+    width: 40%;
+    padding-top: 25px;
+    margin: 0 auto;
+    margin-left: 7%;
+    /*display: inline-block;*/
+}
+.navigation span{
+    /*display: inline-block;*/
+    width: 25%;
+    margin-right: 20px;
+    padding-top: 25px;
+    float: right;
+    color: black;
+    font-size: 1.25rem;
+
+}
+#title li{
+    border-top: 1px solid darkgray;
+    padding: 20px 0px 20px 25px;
+    display: none;
+}
+.img img{
+    margin-top: 10px;
+    width:100%;
+}
+.content p{
+    margin-top: 30px;
+    font-size: 2.2rem;
+    color: rgb(40,58,76);
+    font-weight: bold;
+    margin-left: 15px;
+}
+.content li{
+    font-size: 2rem;
+    color: rgb(112,112,112);
+    margin-left: -20px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.content .img_2 img{
+    width: 100%;
+    margin-top: 20px;
+}
+.fourImg{
+    text-align: center;
+    margin-left: -1.5rem;
+}
+.fourImg .fourImg_1{
+    position: relative;
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:12rem;
+    height: 8rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    text-align: center;
+}
+.fourImg_1{
+    display: inline-block;
+}
+
+.fourImg_1 .template{
+    width: 100%;
+    height: 2.5rem;
+    opacity: 0.5;
+    background: black;
+    position: absolute;
+    bottom: 0px;
+}
+.fourImg_1 .p_1{
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2.5rem;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+.fourImg .img-2{
+    background-image: url("../img/2.png");
+}
+.fourImg .img-3{
+    background-image: url("../img/3.png");
+}
+.fourImg .img-4{
+    background-image: url("../img/4.png");
+}
+.page .page_p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    color: rgb(40,58,76);
+}
+.page li{
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+    color: dimgrey;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.content .content_p{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    color: rgb(40,58,76);
+}
+div.speech {
+    margin: 10px 0;
+    padding: 8px;
+    table-layout: fixed;
+    word-break: break-all;
+    position: relative;
+    border: 1px solid #989898;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+div.speech:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 15px;
+    top: -20px;
+    border: 10px solid;
+}
+div.speech:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 17px;
+    top: -16px;
+    border: 8px solid ;
+}
+div.speech.right {
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 55%;
+    float: right;
+}
+div.speech.right:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 9px;
+    bottom: auto;
+    left: auto;
+    right: -10px;
+    border-width: 9px 0 9px 10px;
+    border-color: transparent #989898;
+}
+div.speech.right:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10px;
+    bottom: auto;
+    left: auto;
+    right: -8px;
+    border-width: 8px 0 8px 9px;
+    border-color: transparent white;
+}
+div.speech.left {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 55%;
+    float: left;
+    background: rgb(157,229,91);
+}
+div.speech.left:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 9px;
+    bottom: auto;
+    left: -10px;
+    border-width: 9px 10px 9px 0;
+    border-color: transparent #989898;
+}
+div.speech.left:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10px;
+    bottom: auto;
+    left: -8px;
+    border-width: 8px 9px 8px 0;
+    border-color: transparent rgb(157,229,91);
+}
+.leftimg {
+    float: left;
+    margin-top: 10px;
+}
+.rightimg {
+    float: right;
+    margin-top: 10px;
+}
+.leftd {
+    clear: both;
+    float: left;
+    background: url("../img/5.png") 0px 10px no-repeat;
+    padding-left: 40px;
+}
+.rightd {
+    clear: both;
+    float: right;
+    background: url("../img/6.png") right 10px no-repeat;
+    padding-right: 40px;
+}
+.clear {
+    clear: both;
+}
+.leftd span{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+.rightimg span{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -40px;
+}
+.dialogue{
+    margin-top: 20px;
+}
+.both{
+    clear: both;
+}
+.bottom{
+    margin-top: 20px;
+}
+
+/*form*/
+/*form*/
+.form-box{
+    width:100%;
+}
+.form-box h2{
+    margin-top: 3.5rem;
+    font-size: 2.6rem;
+    color:#d33d48;
+    text-align: center;
+}
+.form-box .txt , .form-box .txt2{
+    width:31.5rem;
+    height:4.2rem;
+    border:1px solid #ccc;
+    border-radius:1px;
+    margin:3rem 0 2rem 3rem;
+}
+.form-box .txt2{
+    margin:0rem 0 2rem 3rem;
+}
+.form-box .txt input{
+    padding-left:1rem;
+    width:100%;
+    height:100%;
+    border:none;
+    outline: none;
+    margin:0px;
+    font-size:1.6rem;
+}
+.form-box .txt2 input{
+    padding-left:1rem;
+    width:100%;
+    height:100%;
+    border:none;
+    outline: none;
+    margin:0px;
+    font-size:1.6rem;
+}
+.form-box .submit{
+    width:31.5rem;
+    height:4.2rem;
+    border:1px solid #d33d48;
+    border-radius:1px;
+    margin:3rem 0 2rem 3rem;
+    background:#d33d48;
+    border-radius: 2px;
+}
+.form-box .submit input{
+    color:#ffffff;
+    height:4rem;
+    width:100%;
+    border:0;
+    display: block;
+    background:none;
+    font-size:1.8rem;
+}
+.padding{
+    padding: 3rem;
+}
+
+.shu{height:2rem;}
+.footer{
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:5.6rem;
+    background:#2d3e50; 
+}
+.footer a{
+    font-size:1.1rem;
+    color:#ffffff;
+    float:left;
+    width:33.3%;
+    text-align:center
+}
+.footer a img{
+    height:2.4rem;
+    width:2.4rem;
+    margin-top:0.8rem;
+}
+.footer a .consultation{
+    width:3.05rem;
+}

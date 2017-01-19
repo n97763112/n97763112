@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>教学环境</title>
+	<link rel="stylesheet" href="reset.min.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<!--导航栏部分-->
+    <div class="navigation">
+        <img id="img_1" src="img/xl.png" alt="">
+        <a href=""><img id="img_2" src="img/logo.png" alt=""></a>
+        <a href=""><span>全国咨询热线<br>400-606-1916</span></a>
+    </div>
+    <ul id="title">
+            <a href="../首页/home_page.html"><li class="li">首页</li></a>
+            <a href="../优质服务_关于我们/关于我们.html"><li class="li">关于我们</li></a>
+            <a href="../优质服务_关于我们/优质服务.html"><li class="li">优质服务</li></a>
+            <a href="../教研设备/equipment.html"><li class="li">教研设备</li></a>
+            <a href="../留学信息/study_abroad.html"><li class="li">留学信息</li></a>
+            <a href="../师资团队/teachers.html"><li class="li">师资团队</li></a>
+            <a href="../在线学习/online_learning.html"><li class="li">在线学习</li></a>                      
+    </ul>
+	<section id="banner"><a href=""><img src="img/banner.png" alt=""></a></section>
+	<section class="teaching_environment"><a href=""><img src="img/a.png" alt=""></a></section>
+	<section class="teaching_environment"><a href=""><img src="img/b.png" alt=""></a></section>
+	<section class="teaching_environment"><a href=""><img src="img/c.png" alt=""></a></section>
+	<section class="teaching_environment"><a href=""><img src="img/d.png" alt=""></a></section>
+
+	<section id="make_an_appointment_to_audition">
+		<h1>预约免费试听</h1>
+		<form action="">
+			<input type="text" placeholder="姓名"><br>
+			<input type="text" placeholder="电话">
+			<button>开启全新体验</button>
+		</form>
+	</section>
+	<div class="padding"></div>
+	<div class="shu"></div>
+  	<div class="footer">
+  	 	<a href="#">
+  	 		<img src="img/home.png" alt="" />
+  	 		<p>首页</p>
+  	 	</a>
+  	 	<a href="#">
+  	 		<img class="consultation" src="img/tel_now.png" alt="" />
+  	 		<p>在线咨询</p>
+  	 	</a>
+  	 	<a href="#">
+  	 		<img src="img/tel.png" alt="" />
+  	 		<p>咨询电话</p>
+  	 	</a> 	
+  	</div>
+</body>
+</html>
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script>
+	window.onload=function(){
+	    // 获取屏幕的宽度
+	    var bodyWidth=document.documentElement.clientWidth;
+	    //做手机适配
+	    //1rem=20px
+	      	if (bodyWidth > 750) {
+				bodyWidth = 750;
+			}
+	    var widthsize=bodyWidth*20/750;
+	    //alert(widthsize)
+	    document.documentElement.style.fontSize=widthsize+"px";
+	}
+	window.onload=function(){
+	    // 获取屏幕的宽度
+	    var bodyWidth=document.documentElement.clientWidth;
+	    //做手机适配
+	    //1rem=20px
+	    var widthsize=bodyWidth*20/750;
+	    //alert(widthsize)
+	    document.documentElement.style.fontSize=widthsize+"px";
+	}
+	window.onscroll=function(){
+	    // 获取屏幕宽度
+	    var deviceWidth=document.documentElement.clientWidth;
+	    var widthsize=deviceWidth*20/750;
+	    document.documentElement.style.fontSize=widthsize+"px";
+	}
+	window.onresize=function(){
+	    // 获取屏幕的宽度
+	    var bodyWidth=document.documentElement.clientWidth;
+	    //做手机适配
+	    var widthsize=bodyWidth*20/750;
+	    document.documentElement.style.fontSize=widthsize+"px";
+	}
+	$("#img_1").click(function(){
+	    if ($(".li").css("display") == "none"){
+	        $(".li").show(300);
+	    }else{
+	        $(".li").hide(300);
+	    }
+	});
+</script>
